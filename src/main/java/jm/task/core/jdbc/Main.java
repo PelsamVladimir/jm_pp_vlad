@@ -8,13 +8,13 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
-        try {
-            Util.connect();
-            Util.createUsersTable();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Util.getConnection();
+//            Util.createUsersTable();
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
     }
 }
